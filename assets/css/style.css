@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Edu+NSW+ACT+Foundation&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Edu NSW ACT Foundation', cursive, sans-serif;
+    font-size: 54px;
+}
+
+p {
+    font-size: 26px;
+}
+
+.container {
+    width: 1024px;
+}
+
+header {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+}
+
+/* SESSÃO 01 */
+
+.session01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3fa5ca;
+}
+
+.info {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    margin-right: 60px;
+}
+
+.profile img {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(204, 204, 204);
+    filter: grayscale(70%);
+    transition: 400ms;
+}
+
+.profile img:hover {
+    filter: none;
+}
+
+.description .born {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.description .specifcs {
+    font-size: 32px;
+    text-decoration:underline;
+}
+
+/* SESSÃO 02 */
+
+.session02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.session02 h1 {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.session02 p {
+    margin: 20px 0px;
+}
+
+/* SESSÃO 03 */
+
+.session03 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3fa5ca;
+}
+
+.containerColumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.session03 h1 {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.session03 ul li {
+    font-size: 24px;
+    padding: 0px;
+    margin: 20px;
+}
+
+.containerColumn .books {
+    flex:1;
+}
+
+.containerColumn .cd_dvd {
+    flex:1;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    margin-left: 10px;
+    transition: all 200ms linear;
+}
+
+footer i {
+    font-size: 40px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+footer .contact {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .reference {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.moreinfo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.moreinfo:hover {
+    border: 1px solid #3fa5ca;
+}
+
+.moreinfo:hover, footer a:hover {
+    color:#3fa5ca;
+}
